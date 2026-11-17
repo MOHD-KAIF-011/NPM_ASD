@@ -1,0 +1,61 @@
+{
+  "name": "str-craft-kit",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency string transformation, formatting, sanitization, and validation utility toolkit for Node.js and modern JavaScript.",
+  "main": "./src/index.cjs",
+  "module": "./src/index.mjs",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./types/index.d.ts",
+        "default": "./src/index.mjs"
+      },
+      "require": {
+        "types": "./types/index.d.ts",
+        "default": "./src/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "src",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "string",
+    "utilities",
+    "slugify",
+    "truncate",
+    "casing",
+    "camelcase",
+    "kebab-case",
+    "snake-case",
+    "sanitize",
+    "escape-html",
+    "mask",
+    "validation",
+    "zero-dependency",
+    "esm",
+    "commonjs"
+  ],
+  "author": "Mohd Kaif",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOHD-KAIF-011/NPM_ASD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MOHD-KAIF-011/NPM_ASD/issues"
+  },
+  "homepage": "https://github.com/MOHD-KAIF-011/NPM_ASD#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

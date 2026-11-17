@@ -1,0 +1,7 @@
+test/
+consumer-esm/
+consumer-cjs/
+.gitignore
+.npmignore
+*.log
+*.tgz
